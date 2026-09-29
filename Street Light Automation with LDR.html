@@ -1,0 +1,13 @@
+# Street-Light-Automation-with-LDR
+# Street Light Automation with LDR
+# LDR reading: low value = dark, high value = bright
+
+THRESHOLD = 40   # below this, it is dark
+
+ldr = int(input("Enter LDR value (0-100): "))
+
+if ldr < THRESHOLD:
+    print("It is DARK  -> Street Light ON  💡")
+else:
+    print("It is BRIGHT -> Street Light OFF")
+

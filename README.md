@@ -1,1 +1,0 @@
-# Street-Light-Automation-with-LDR
