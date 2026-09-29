@@ -1,4 +1,3 @@
-# Street-Light-Automation-with-LDR
 # Street Light Automation with LDR
 # LDR reading: low value = dark, high value = bright
 
@@ -10,4 +9,3 @@ if ldr < THRESHOLD:
     print("It is DARK  -> Street Light ON  💡")
 else:
     print("It is BRIGHT -> Street Light OFF")
-
